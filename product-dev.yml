@@ -17,7 +17,7 @@ eureka:
   instance:
     prefer-ip-address: true #使用ip地址进行注册
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
-name: handproduct-789
+name: handproduct-789123
 rabbitmq:
   host: 127.0.0.1
   port: 5672
