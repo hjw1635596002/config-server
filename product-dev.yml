@@ -16,4 +16,4 @@ eureka:
       defaultZone: http://localhost:9000/eureka/ #多个Eurekaserver之间用","隔开
   instance:
     prefer-ip-address: true #使用ip地址进行注册
-name: handproduct-1
+name: handpro
