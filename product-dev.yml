@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://localhost:3306/shop?serverTimezone=UTC&characterEncoding=utf8
     username: root
     password: 123456
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 mybatis:
   mapper-locations: classpath:/mapper/**/*.xml
 eureka:
@@ -18,8 +23,4 @@ eureka:
     prefer-ip-address: true #使用ip地址进行注册
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
 name: handproduct-789123
-rabbitmq:
-  host: 127.0.0.1
-  port: 5672
-  username: guest
-  password: guest
+
