@@ -18,7 +18,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7000/eureka/ #多个Eurekaserver之间用","隔开
+      defaultZone: http://localhost:9000/eureka/ #多个Eurekaserver之间用","隔开
   instance:
     prefer-ip-address: true #使用ip地址进行注册
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
