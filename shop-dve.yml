@@ -8,6 +8,11 @@ spring:
     password: 123456
   application:
     name: server-shop
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 mybatis:
   mapper-locations: classpath:/mappers/**/*.xml
 eureka:
