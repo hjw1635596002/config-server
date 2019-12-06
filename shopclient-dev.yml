@@ -33,4 +33,4 @@ management:
     web:
       exposure:
         include: '*'
-name: shop-w2xcfg
+name: shop-w2xttf
