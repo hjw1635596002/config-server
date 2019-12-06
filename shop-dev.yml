@@ -28,3 +28,4 @@ eureka:
     prefer-ip-address: true #是否以id注册
     hostname: localhost
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
+name: shop-123
