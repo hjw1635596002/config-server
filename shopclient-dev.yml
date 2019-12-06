@@ -33,4 +33,4 @@ management:
     web:
       exposure:
         include: '*'
-name: shop-w234        
+name: shop-w234766        
